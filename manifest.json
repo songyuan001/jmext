@@ -1,0 +1,20 @@
+{
+    "manifest_version": 3,
+    "name": "My Chrome Extension",
+    "version": "0.0.1",
+    "description": "My Chrome Extension Description",
+    "background": {
+        "service_worker": "service_worker.js",
+        "type": "module"
+    },
+    "permissions": [
+        "notifications"
+    ],
+    "action": {
+        "default_icon": "logo.png",
+        "default_title": "Popup Title",
+        "default_popup": "popup/index.html"
+      
+    }
+  }
+  
